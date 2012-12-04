@@ -175,7 +175,7 @@ tabpanels {
 
 /* New Tab Button */
 
-.tabs-newtab-button {
+.tabs-newtab-button, #new-tab-button {
 	-moz-appearance: none !important;
 	list-style-image: url("chrome://browser/skin/tabbrowser/newtab.png") !important;
 	-moz-image-region: rect(0px, 32px, 16px, 16px) !important;
