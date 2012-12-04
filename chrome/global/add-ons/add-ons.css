@@ -192,6 +192,26 @@ toolbar[iconsize="small"] #fireftp-button {
 }
 
 /* ============================================= */
+/* Firebug */
+
+#firebug-button,
+toolbar[iconsize="small"] #firebug-button {
+	list-style-image: url("chrome://global/skin/add-ons/firebug-dis.png") !important;
+	filter: none !important;
+}
+#firebug-button[firebugActive="true"],
+toolbar[iconsize="small"] #firebug-button[firebugActive="true"] {
+	list-style-image: url("chrome://global/skin/add-ons/firebug.png") !important;
+	opacity: 1 !important;
+}
+#firebug-button[firebugActive="true"] .toolbarbutton-icon {
+	opacity: 1 !important;
+}
+#firebug-button[firebugActive="true"] .toolbarbutton-text {
+	color: GrayText !important;
+}
+
+/* ============================================= */
 /* Flashblock */
 
 #flashblockToggle-button,
