@@ -1,0 +1,7 @@
+skin	browser	rein	jar:chrome/rein.jar!/browser/
+skin	global	rein	jar:chrome/rein.jar!/global/
+skin	mozapps	rein	jar:chrome/rein.jar!/mozapps/
+
+skin	browser	rein	jar:chrome/rein.jar!/mac/browser/	os=Darwin
+skin	global	rein	jar:chrome/rein.jar!/mac/global/	os=Darwin
+skin	mozapps	rein	jar:chrome/rein.jar!/mac/mozapps/	os=Darwin
