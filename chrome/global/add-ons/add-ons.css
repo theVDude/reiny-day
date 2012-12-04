@@ -11,6 +11,17 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /* ============================================= */
+/* Change Firefox button in linux! */
+
+#appmenu-toolbar-button {
+  list-style-image: url("chrome://global/skin/add-ons/compact-menu-small.png");
+}
+#appmenu-toolbar-button > .toolbarbutton-text,
+#appmenu-toolbar-button > .toolbarbutton-menu-dropmarker {
+  display: none !important;
+}
+
+/* ============================================= */
 /* Akafuku */
 
 #akahuku_preferences_dialog tab {
