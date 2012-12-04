@@ -1,7 +1,7 @@
-skin	browser	rein	jar:chrome/rein.jar!/browser/
-skin	global	rein	jar:chrome/rein.jar!/global/
-skin	mozapps	rein	jar:chrome/rein.jar!/mozapps/
+skin	browser	reiny-day	jar:chrome/reiny-day.jar!/browser/
+skin	global	reiny-day	jar:chrome/reiny-day.jar!/global/
+skin	mozapps	reiny-day	jar:chrome/reiny-day.jar!/mozapps/
 
-skin	browser	rein	jar:chrome/rein.jar!/mac/browser/	os=Darwin
-skin	global	rein	jar:chrome/rein.jar!/mac/global/	os=Darwin
-skin	mozapps	rein	jar:chrome/rein.jar!/mac/mozapps/	os=Darwin
+skin	browser	reiny-day	jar:chrome/reiny-day.jar!/mac/browser/	os=Darwin
+skin	global	reiny-day	jar:chrome/reiny-day.jar!/mac/global/	os=Darwin
+skin	mozapps	reiny-day	jar:chrome/reiny-day.jar!/mac/mozapps/	os=Darwin
