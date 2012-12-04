@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:id>reiny-day@thevdude.github.com</em:id>
+		<em:version>5.3.1</em:version>
+		<em:type>4</em:type>
+		<em:unpack>true</em:unpack>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>16.*</em:minVersion>
+				<em:maxVersion>20.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<em:name>reiny-day</em:name>
+		<em:description>Grab an umbrella!</em:description>
+		<em:creator>Robert Bruce</em:creator>
+		<em:homepageURL>http://thevdude.github.com/reiny-day</em:homepageURL>
+
+		<em:internalName>reiny-day</em:internalName>
+
+	</Description>
+
+</RDF>
